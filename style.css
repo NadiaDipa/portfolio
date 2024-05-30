@@ -1,32 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* universal css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: "Inter", sans-serif;
-}
-
-/* header section */
-.header-container{
-    display: flex;
     background-color: #1e1e1e;
-    
-    
 }
 
+
+
+
+/* header section starts here */
+.header-container{
+    display: flex;    
+}
+
+/* header => logo */
 .logo-section{
     width: 20%;
     margin: 0 auto;
-    color: rgb(253,111,0);
+    color: #FD6F00;
     display: flex;
     align-items: center;
     min-height: 90px;
    
 }
+/* header => navbar */
 .navbar{
     width: 55%;
     margin: 0 auto;
@@ -42,13 +45,122 @@ body{
 .list-items a {
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: #FFFFFF;
 }
     
 .nav-btn{
     padding: 15px 20px;
-    background-color: rgb(253,111,0);
-    color: white;
+    background-color: #FD6F00;
+    color: #FFFFFF;
     border-radius: 5px;
     font-size: 20px;
 }
+/* header-section ends here */
+
+
+
+
+/* banner-section starts here */
+.banner-container{
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+    
+}
+/* banner-section => text-left-side */
+.banner-text-left-side{
+    height: 800px;
+    width: 50%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    
+}
+.banner-text-left-side h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+
+}
+/* banner-section => dhaka text */
+.special-text{
+    color: #FD6F00;
+    
+}
+/* banner-section => paragraph */
+.para{
+    font-size: 15.5px;
+    color: #8E8E8E;
+}
+
+/* banner-section => Design | Development | Webflow  */
+.designing-tag h2{
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.designing-tag img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* banner-section => combined button(portfolio + hireme) */
+.combined-button {
+    width:470px;
+    display: flex;
+    align-items: center;
+    background-color: #343434;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 70px;
+    border: 2px solid #FFFFFF;
+}
+.portfolio-button{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    background-color: #FD6F00;
+    color:#FFFFFF;
+    font-size: 30px;
+    border-radius: 60px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hire-me-btn a{
+    text-decoration: none;
+    font-size: 30px;
+    color:#FFFFFF;
+    padding-left: 40px;
+}
+
+/* banner-section => social icons part */
+.social-icons-container{
+    padding-top: 40px;
+}
+.font-icon{
+    font-size: 50px;
+    color: #8E8E8E;
+   
+}
+.font-icon i{
+    padding-right: 30px;
+}
+
+/* banner-section => img-right-side */
+.banner-img-right-side{
+    width: 50%;
+    border: 2px solid green;
+}
+.banner-img-right-side img{
+    width: 85%;
+    height: 85%;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+/* banner-section ends here */
