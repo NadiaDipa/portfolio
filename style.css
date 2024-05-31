@@ -407,13 +407,49 @@ body{
     width: 88%;
     margin: 0 auto;
     justify-content: center;
+    background-color: #000000;
 }
-.logo-section h1{
-    font-size: 60px;
+.footer-logo{
+    font-size: 30PX;
+    text-align: center;
+    color:#FD6F00;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+.footer-nav{
+    font-size: 20px;
+    margin-top: 40px;
+    
+}
+.footer-nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0px 20px;
+   
+}
+.footer-icons-container{
+    display: flex;
+    justify-content: center;
 }
 .footer-icon{
-    font-size: 40px;
+    font-size: 35px;
+    padding-top: 100px;
     color:#FFFFFF;
+}
+.footer-icon i{
+    padding: 0px 10px;
+}
+.footer-end-section{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+    font-size: 23px;
+}
+.name{
+    color: #FD6F00;
+    padding: 0px 5px;
+    margin-bottom: 30px;
 }
 /* footer section ends here */
 
