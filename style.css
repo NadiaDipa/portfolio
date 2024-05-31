@@ -455,10 +455,11 @@ body{
 .footer-icon{
     font-size: 35px;
     padding-top: 100px;
-    color:#FFFFFF;
+    
 }
-.footer-icon i{
+.footer-icon a{
     padding: 0px 10px;
+    color:#FFFFFF;
 }
 .footer-end-section{
     display: flex;
