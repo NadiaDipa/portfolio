@@ -150,11 +150,12 @@ body{
 }
 .font-icon{
     font-size: 50px;
-    color: #8E8E8E;
+    
    
 }
-.font-icon i{
+.font-icon a{
     padding-right: 30px;
+    color: #8E8E8E;
 }
 
 /* banner-section => img-right-side */
@@ -162,9 +163,8 @@ body{
     width: 44%;
 }
 .banner-img-right-side img{
-   
-    padding-left: 360px;
-    padding-top: 50px;
+   width: 820px;
+   padding-left: 90px;
 }
 /* banner-section ends here */
 
@@ -325,7 +325,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 .portfolio-right-text h1{
     font-size: 40px;
