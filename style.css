@@ -65,13 +65,13 @@ body{
     display: flex;
     width: 88%;
     margin: 0 auto;
+    padding-bottom: 200px;
     
 }
 /* banner-section => text-left-side */
 .banner-text-left-side{
     height: 800px;
     width: 50%;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +155,6 @@ body{
 /* banner-section => img-right-side */
 .banner-img-right-side{
     width: 50%;
-    border: 2px solid green;
 }
 .banner-img-right-side img{
     width: 85%;
@@ -164,3 +163,170 @@ body{
     padding-top: 50px;
 }
 /* banner-section ends here */
+
+
+
+/* about-section starts here */
+.about-me-container{
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+}
+/* about-section => left-side */
+.about-left-side{
+    border: 2px solid red;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-left-side h1{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.about-left-side p{
+    color:#8E8E8E;
+    font-size: 19px;
+    margin-top: 15px;
+    align-items: flex-end;
+}
+
+/* about-section => right-side */
+.about-right-side{
+    border: 2px solid yellow;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.about-right-side-info {
+    margin-left: auto; 
+    
+}
+
+.about-star-icon{
+    color: #FD6F00;
+    font-size: 25px;
+    
+}
+
+.experience-year{
+    color: #FFFFFF;
+}
+.experience-year h1{
+    font-size: 50px;
+    margin-top: 20px;
+   
+}
+
+/* about-section ends here */
+
+
+
+
+/* experience-section starts here */
+.my-experience-container{
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.experience-text-left-side{
+    border: 2px solid red;
+    width: 50%;
+    height: 500px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.experience-year-right-side{
+    border: 2px solid yellow;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.experience-list{
+    color: #FFFFFF;
+}
+.year-companyName{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* portfolio section starts here */
+.my-portfolio-container{
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+    justify-content: center;
+    
+    
+}
+/* portfolio section => info(h1,p,button) */
+.portfolio-heading-info{
+    text-align: center;
+}
+.portfolio-heading-info h1{
+    color: #FFFFFF;
+    font-size: 40px;    
+}
+.portfolio-heading-info p{
+    color:#8E8E8E;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.portfolio-button-list{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.portfolio-btn{
+    padding: 15px 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* portfolio section => project showcasing */
+.project-1{
+    display: flex;
+    margin-bottom: 45px;
+}
+.portfolio-left-img{
+    width: 50%;
+}
+.portfolio-right-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.portfolio-right-text h1{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.portfolio-right-text h3{
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.portfolio-right-text p{
+    font-size: 20px;
+    color:#8E8E8E
+
+}
+/* portfolio section ends here */

@@ -1,92 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <!-- css style -->
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
     <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <!-- header-section starts here -->
     <header class="header-container">
-        <div class="logo-section">
-            <h1>LOGO</h1>
-        </div>
-        <div class="navbar">
-            <ul class="list-items">
-                <a href="">Home</a>
-                <a href="">About Me</a>
-                <a href="">Projects</a>
-                <a href="">Testimonials</a>
-                <button class="nav-btn">Download CV</button>
-            </ul>
-        </div>
+      <div class="logo-section">
+        <h1>LOGO</h1>
+      </div>
+      <div class="navbar">
+        <ul class="list-items">
+          <a href="">Home</a>
+          <a href="">About Me</a>
+          <a href="">Projects</a>
+          <a href="">Testimonials</a>
+          <button class="nav-btn">Download CV</button>
+        </ul>
+      </div>
     </header>
     <!-- header-section ends here -->
 
-
     <main>
-        <!-- banner-section starts here -->
-        <section class="banner-container">
-            <div class="banner-text-left-side">
-                <h1>HI, I'M NADIA <br> A CREATIVE <img  width="40" height="40" src="./images/special-icon.png" alt=""> DESIGNER <br>BASED IN <span class="special-text">DHAKA</span></h1>
-                <div class="para">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, ipsa?Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="designing-tag">
-                    <h2>DESIGN<img  width="40" height="40" src="./images/special-icon.png" alt=""> </h2>
-                    <h2>DEVELOPMENT<img  width="40" height="40" src="./images/special-icon.png" alt=""></h2>
-                    <h2>WEBFLOW</h2>
-                </div>
-                <div class="combined-button">
-                    <button class="portfolio-button">Portfolio
-                        <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        width="40px"
-                        height="40px"
-                        viewBox="0 0 24 24"
-                        strokeWidth="{1.5}"
-                        stroke="currentColor"
-                        className="size-6"
-                        class="check-icon"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-                        />
-                      </svg>
-                    </button>
-                    <div class="hire-me-btn">
-                        <a href="">Hire Me</a>
-                      </div>
-                   
-                </div>
-                
-                <div class="social-icons-container">
-                    <span class="font-icon">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                    </span>
-                </div>
+      <!-- banner-section starts here -->
+      <section class="banner-container">
+        <div class="banner-text-left-side">
+          <h1>
+            HI, I'M NADIA <br />
+            A CREATIVE
+            <img
+              width="40"
+              height="40"
+              src="./images/special-icon.png"
+              alt=""
+            />
+            DESIGNER <br />BASED IN <span class="special-text">DHAKA</span>
+          </h1>
+          <div class="para">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Delectus, ipsa?Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="designing-tag">
+            <h2>
+              DESIGN<img
+                width="40"
+                height="40"
+                src="./images/special-icon.png"
+                alt=""
+              />
+            </h2>
+            <h2>
+              DEVELOPMENT<img
+                width="40"
+                height="40"
+                src="./images/special-icon.png"
+                alt=""
+              />
+            </h2>
+            <h2>WEBFLOW</h2>
+          </div>
+          <div class="combined-button">
+            <button class="portfolio-button">
+              Portfolio
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                width="40px"
+                height="40px"
+                viewBox="0 0 24 24"
+                strokeWidth="{1.5}"
+                stroke="currentColor"
+                className="size-6"
+                class="check-icon"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </button>
+            <div class="hire-me-btn">
+              <a href="">Hire Me</a>
             </div>
-            <div class="banner-img-right-side">
-                <img src="./images/profile.png" alt="">
+          </div>
+
+          <div class="social-icons-container">
+            <span class="font-icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </div>
+        </div>
+        <div class="banner-img-right-side">
+          <img src="./images/profile.png" alt="" />
+        </div>
+      </section>
+      <!-- banner-section ends here -->
+
+      <!-- about me starts here -->
+      <section class="about-me-container">
+        <div class="about-left-side">
+          <h1>ABOUT ME</h1>
+          <p>
+            My name is Nadia Islam Dipa. I am a recent graduate of American International University-Bangladesh (AIUB), holding a B.Sc. in Computer Science and Engineering (CSE). Currently, my passion lies in front-end development. I am actively learning various technologies including HTML, CSS, Tailwind CSS, JavaScript, React.js, and Next.js. <br> <br>
+            Additionally, I am proficient in using GitHub, Visual Studio Code, and Figma. I am driven by a strong desire to continuously expand my skillset and gain more experience in the field.
+          </p>
+        </div>
+        <div class="about-right-side">
+          <div class="about-right-side-info">
+            <span class="about-star-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <div class="experience-year">
+              <h1>10 Years</h1>
+              <p>Experience</p>
             </div>
-        </section>
-        <!-- banner-section starts here -->
+          </div>
+        </div>
+      </section>
+      <!-- about me ends here -->
+
+
+
+
+      <!-- my experience starts here -->
+      <!-- <section class="my-experience-container">
+        <div class="experience-text-left-side">
+          <h3>Experience</h3>
+          <h1>MY Experience</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vel aut
+            fugiat quidem repellendus, hic expedita recusandae odio enim
+            laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laborum, harum!
+          </p>
+        </div>
+        <div class="experience-year-right-side">
+          <div class="experience-list">
+            <div class="year-companyName">
+              <h3>-2018-present</h3>
+              <p>-Rolling Thunder</p>
+            </div>
+            <h1>LEAD SENIOR FRONT END DEVELOPER</h1>
+          </div>
+        </div>
+      </section> -->
+      <!-- my experience ends here -->
+
+
+
+
+
+      <!-- my portfolio section starts here -->
+      <section class="my-portfolio-container">
+        <div class="portfolio-content">
+          <div class="portfolio-heading-info">
+            <h1>MY PORTFOLIO</h1>
+            <p>Showcasing my latest design projects and coding adventures.</p>
+          </div>
+
+          <div class="portfolio-button-list">
+            <button class="portfolio-btn">UI/UX</button>
+            <button class="nav-btn">Web Design</button>
+            <button class="portfolio-btn">App Design</button>
+            <button class="portfolio-btn">Graphic Design</button>
+          </div>
+
+          <div class="project-1">
+            <div class="portfolio-left-img">
+              <img src="./images/portfolio-img/portfolio-1.png" alt="" />
+            </div>
+            <div class="portfolio-right-text">
+              <h3><i>UX Case Study</i></h3>
+              <h1>Freelance Website Research</h1>
+              <p>
+                Developed a custom e-commerce website for a local freelancing
+                <br />market using HTML and CSS.
+              </p>
+              <br />
+              <p>
+                Designed and implemented a user-friendly interface to enhance
+                <br />the shopping experience.
+              </p>
+              <br />
+              <p>
+                Received positive feedback from the client for the website's
+                <br />functionality and design.
+              </p>
+              <br />
+            </div>
+          </div>
+          <div class="project-1">
+            <div class="portfolio-right-text">
+              <h3><i>UX Case Study</i></h3>
+              <h1>Sports Website Research</h1>
+              <p>
+                Designed and developed a dynamic sport training <br />
+                website using HTML and CSS.
+              </p>
+              <br />
+              <p>
+                Crafted responsive layouts and engaging user <br />interfaces
+                for seamless navigation on various devices.
+              </p>
+              <br />
+              <p>
+                Received positive user feedback for the website's visually
+                <br />
+                appealing design and intuitive navigation.
+              </p>
+              <br />
+            </div>
+            <div class="portfolio-left-img">
+              <img src="./images/portfolio-img/portfolio-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- my portfolio section ends here -->
     </main>
 
-
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
