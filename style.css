@@ -12,11 +12,14 @@ body{
 }
 
 
-
-
 /* header section starts here */
 .header-container{
-    display: flex;    
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 100px;
+    background-color: #1E1E1E;    
 }
 
 /* header => logo */
@@ -65,13 +68,15 @@ body{
     display: flex;
     width: 88%;
     margin: 0 auto;
-    padding-bottom: 200px;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: #1E1E1E;
     
 }
 /* banner-section => text-left-side */
 .banner-text-left-side{
     height: 800px;
-    width: 50%;
+    width: 44%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,12 +159,11 @@ body{
 
 /* banner-section => img-right-side */
 .banner-img-right-side{
-    width: 50%;
+    width: 44%;
 }
 .banner-img-right-side img{
-    width: 85%;
-    height: 85%;
-    padding-left: 80px;
+   
+    padding-left: 360px;
     padding-top: 50px;
 }
 /* banner-section ends here */
@@ -171,11 +175,13 @@ body{
     display: flex;
     width: 88%;
     margin: 0 auto;
+    justify-content: center;
+    align-items:center ;
 }
 /* about-section => left-side */
 .about-left-side{
-    border: 2px solid red;
-    width: 50%;
+    
+    width: 44%;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -184,31 +190,31 @@ body{
 .about-left-side h1{
     color: #FFFFFF;
     font-size: 40px;
+    font-weight: 800;
 }
 .about-left-side p{
     color:#8E8E8E;
     font-size: 19px;
     margin-top: 15px;
-    align-items: flex-end;
 }
 
 /* about-section => right-side */
 .about-right-side{
-    border: 2px solid yellow;
-    width: 50%;
+    width: 44%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
-}
-.about-right-side-info {
-    margin-left: auto; 
+    align-items: center; 
     
+}
+.about-right-side-info{
+    margin-left: 400px;
 }
 
 .about-star-icon{
     color: #FD6F00;
     font-size: 25px;
+    margin-left: 45px;
     
 }
 
@@ -219,6 +225,9 @@ body{
     font-size: 50px;
     margin-top: 20px;
    
+}
+.experience-year p{
+    margin-left: 120px;
 }
 
 /* about-section ends here */
@@ -267,7 +276,10 @@ body{
     width: 88%;
     margin: 0 auto;
     justify-content: center;
+    align-items:center ;
+    padding-top: 40px;
     padding-bottom: 150px;
+    background-color: #1E1E1E;   
 }
 /* portfolio section => info(h1,p,button) */
 .portfolio-heading-info{
@@ -275,7 +287,8 @@ body{
 }
 .portfolio-heading-info h1{
     color: #FFFFFF;
-    font-size: 40px;    
+    font-size: 40px;
+    font-weight: 800;    
 }
 .portfolio-heading-info p{
     color:#8E8E8E;
@@ -288,24 +301,27 @@ body{
     justify-content: center;
     margin: 50px;
 }
+.portfolio-button-list button{
+    font-size: 25px;
+}
 .portfolio-btn{
     padding: 15px 40px;
     background-color: #000000;
     color: #FFFFFF;
     border-radius: 5px;
-    font-size: 20px;
 }
 
 /* portfolio section => project showcasing */
 .project-1{
     display: flex;
-    margin-bottom: 45px;
+    margin-bottom: 45px;   
 }
 .portfolio-left-img{
-    width: 50%;
+    width: 44%;
+    
 }
 .portfolio-right-text{
-    width: 50%;
+    width: 44%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -318,9 +334,10 @@ body{
     margin-bottom: 20px;
 
 }
-.portfolio-right-text h3{
+.portfolio-right-text h4{
     font-size: 20px;
     color: #FFFFFF;
+    font-weight: 500;
 
 }
 .portfolio-right-text p{
@@ -340,6 +357,7 @@ body{
     margin: 0 auto;
     justify-content: center;
     padding-bottom: 100px;
+    background-color: #1E1E1E;
 }
 .contact-details{
     width: 70%;
@@ -354,10 +372,11 @@ body{
     font-size: 40px;
     margin-top: 30px;
     margin-bottom: 60px;
+    font-weight: 800;
 }
 /* form-container */
 .form-container{
-    padding: 60px;
+    padding: 60px 120px;
     color: #FFFFFF;
     background-color: #34261B;
     
@@ -404,7 +423,6 @@ body{
 /* footer section starts here */
 .footer-container{
     display: flex;
-    width: 88%;
     margin: 0 auto;
     justify-content: center;
     background-color: #000000;
@@ -415,6 +433,9 @@ body{
     color:#FD6F00;
     margin-top: 150px;
     margin-bottom: 60px;
+}
+.footer-logo h1{
+    font-weight: 800;
 }
 .footer-nav{
     font-size: 20px;
