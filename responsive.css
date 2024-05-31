@@ -1,18 +1,125 @@
-@media screen and (min-width: 575px) and (max-width: 992px){
+@media screen and (min-width: 375px) and (max-width: 992px){
+    /* header */
     .header-container{
-        display: flex;
         flex-direction: column; 
-        padding: 20px;
+        align-items: center;
+       
        
     }
     .logo-section h1{
-        font-size: 45px;
-        
+       font-size: 50px;
+       align-items: center;
+       margin-left: 100px;
+    }
+    .navbar{
+        flex-direction: column;
+        margin-left: 200px;
+    }
+
+    .list-items a{
+        padding: 10px;
+        font-size: 35px;
+    }
+    
+    .list-items{
+        display: flex;
+        flex-direction: column;
     }
     .nav-btn{
-        margin-top: 15px;
+        margin-top: 25px;
+        font-size: 30px;
+        margin-bottom: 300px;
     }
-    .list-items{
+
+
+
+
+    /* banner */
+    .banner-container{
+        width: 100%;
+        margin-left: 150px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-bottom: 350px;
+       
+    }
+    .banner-text-left-side h1{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 30px;
+    
+    }
+    .para p{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .combined-button{
+        width: 50%;
+        
+    }
+    .portfolio-button{
+        font-size: 30px;
+    }
+    .hire-me-btn{
+        font-size: 30px;
+    }
+    .social-icon-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-img-right-side img{
+        width: 250px;
+    }
+
+
+    /* about me */
+    .about-me-container{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .about-right-side{
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        margin-right:300px;
+        margin-bottom: 100px;
+    }
+
+
+    /* portfolio */
+    .portfolio-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .portfolio-button-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* footer */
+    .footer-container{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-nav{
         display: flex;
         flex-direction: column;
     }
