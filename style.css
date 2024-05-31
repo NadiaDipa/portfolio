@@ -400,3 +400,22 @@ body{
 
 
 
+
+/* footer section starts here */
+.footer-container{
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.logo-section h1{
+    font-size: 60px;
+}
+.footer-icon{
+    font-size: 40px;
+    color:#FFFFFF;
+}
+/* footer section ends here */
+
+
+
