@@ -49,7 +49,7 @@ body{
 }
     
 .nav-btn{
-    padding: 15px 20px;
+    padding: 15px 40px;
     background-color: #FD6F00;
     color: #FFFFFF;
     border-radius: 5px;
@@ -267,8 +267,7 @@ body{
     width: 88%;
     margin: 0 auto;
     justify-content: center;
-    
-    
+    padding-bottom: 150px;
 }
 /* portfolio section => info(h1,p,button) */
 .portfolio-heading-info{
@@ -290,7 +289,7 @@ body{
     margin: 50px;
 }
 .portfolio-btn{
-    padding: 15px 20px;
+    padding: 15px 40px;
     background-color: #000000;
     color: #FFFFFF;
     border-radius: 5px;
@@ -330,3 +329,74 @@ body{
 
 }
 /* portfolio section ends here */
+
+
+
+
+/* my contact section starts here */
+.my-contact-container{
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.contact-details{
+    width: 70%;
+}
+
+.contact-heading{
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+}
+.contact-heading h1{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+/* form-container */
+.form-container{
+    padding: 60px;
+    color: #FFFFFF;
+    background-color: #34261B;
+    
+}
+.form-container h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form-details-name-email{
+    display: flex;
+    
+    
+}
+.name-field{
+    width: 50%;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #FFFFFF;
+    
+}
+.email-field{
+    width: 50%;
+    border-bottom: 2px solid #FFFFFF;
+    
+}
+.form-message{
+    width: 100%;
+    border-bottom: 2px solid #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    padding-bottom: 60px;
+
+}
+.attach-file{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+/* my contact section ends here */
+
+
+
