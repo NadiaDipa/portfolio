@@ -1,0 +1,4 @@
+# Netlify detects Next.js automatically (build command and publish folder),
+# so this file only pins a Node.js version that Next.js supports.
+[build.environment]
+  NODE_VERSION = "22"
